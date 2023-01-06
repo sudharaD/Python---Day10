@@ -32,6 +32,8 @@ while True:
     while is_continue:
         operator = input("Pick an operation: ")
         next_number = float(input("What is the next number?: "))
+
+        # All of the code replaced with a single line
         # if operator == "+":
         #     result = operator_list[operator](first_number, next_number)
         # elif operator == "-":
