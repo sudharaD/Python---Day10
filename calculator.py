@@ -16,7 +16,7 @@ def multiply(num1, num2):
 def devide(num1, num2):
     return num1 / num2
 
-while True:
+def calculator():
 
     operator_list = {
         "+": add,
@@ -50,5 +50,8 @@ while True:
         if check_continue_calculation == "n":
             clear()
             is_continue = False
+            calculator()
 
         first_number = result
+
+calculator()
