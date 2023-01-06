@@ -32,14 +32,15 @@ while True:
     while is_continue:
         operator = input("Pick an operation: ")
         next_number = float(input("What is the next number?: "))
-        if operator == "+":
-            result = operator_list[operator](first_number, next_number)
-        elif operator == "-":
-            result = operator_list[operator](first_number, next_number)
-        elif operator == "*":
-            result = operator_list[operator](first_number, next_number)
-        else:
-            result = operator_list[operator](first_number, next_number)
+        # if operator == "+":
+        #     result = operator_list[operator](first_number, next_number)
+        # elif operator == "-":
+        #     result = operator_list[operator](first_number, next_number)
+        # elif operator == "*":
+        #     result = operator_list[operator](first_number, next_number)
+        # else:
+        #     result = operator_list[operator](first_number, next_number)
+        result = operator_list[operator](first_number, next_number)
 
         print(f"{first_number} {operator} {next_number} = {result}")
         check_continue_calculation = input(f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation: ")
